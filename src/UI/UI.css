@@ -1,0 +1,48 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: #106CA1;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.stocktable {
+  position: relative;
+  left: 7em;
+  border: 2px solid grey;
+}
+
+.stocktable #stockheader {
+  background-color: #106CA1;
+  color: white;
+  width: 30px;
+}
+
+.stocktable tr:nth-child(even) {
+  background-color: #f1e3e3;
+}
+
+.stocktable td, .stocktable th {
+  padding: 20px;
+  width: 10em;
+}
+
+#btnTrack {
+  background-color: red;
+  color: white;
+  padding: 1em;
+}
+
+#btnTrack:hover {
+  background-color: #A5130F;
+  cursor: pointer;
+}
+/*# sourceMappingURL=UI.css.map */

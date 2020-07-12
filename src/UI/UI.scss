@@ -1,0 +1,46 @@
+$color-white:white;
+$color-blue:#106CA1;
+$color-dred:#A5130F;
+*{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+  background-color: $color-blue;
+  padding:1em;
+}
+h1{
+  text-align: center;
+  color:$color-white;
+}
+
+// stock table styles
+.stocktable{
+    position: relative;
+    left:7em;
+border:2px solid grey;
+#stockheader{
+  background-color: $color-blue;
+  color:$color-white;
+  width: 30px;
+}
+tr:nth-child(even)
+{
+    background-color: rgb(241, 227, 227);
+}
+td,th{
+    padding:20px;
+    width: 10em;
+
+}
+}
+#btnTrack{
+    background-color: red;
+    color:$color-white;
+    padding:1em;
+    &:hover{
+   background-color:$color-dred;
+   cursor: pointer;
+    }
+    
+}
