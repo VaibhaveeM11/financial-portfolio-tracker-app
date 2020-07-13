@@ -14,23 +14,23 @@ h1 {
   color: white;
 }
 
-.stocktable {
+.MyStocksTable {
   position: relative;
   left: 7em;
   border: 2px solid grey;
 }
 
-.stocktable #stockheader {
+.MyStocksTable #stockheader {
   background-color: #106CA1;
   color: white;
   width: 30px;
 }
 
-.stocktable tr:nth-child(even) {
+.MyStocksTable tr:nth-child(even) {
   background-color: #f1e3e3;
 }
 
-.stocktable td, .stocktable th {
+.MyStocksTable td, .MyStocksTable th {
   padding: 20px;
   width: 10em;
 }

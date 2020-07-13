@@ -8,9 +8,9 @@ class HomePageUI extends Component {
     <div className="header">
        <h1>Financial Portfolio Tracker App</h1>
      </div>
-        <div className="mystocks">
-           <h3>My Stocks</h3>
-            <table className="stocktable">
+        <div className="MyStocks">
+           <h2>My Stocks</h2>
+            <table className="MyStocksTable">
                 <tr id="stockheader">
                    <th>My Stocks</th> 
                    <th>Stock Name</th>
@@ -54,9 +54,11 @@ class HomePageUI extends Component {
                     <button id="btnTrack">stop tracking</button>
                 </td>
                 </tr>
-                
-
             </table>
+        </div>
+        <div className="AddStocksTitle">
+            <h2>Add  Stock to my stock</h2>
+            <button className="StockButton"> INTC</button> <span>Intel Corporations</span>
         </div>
       </div>
 
