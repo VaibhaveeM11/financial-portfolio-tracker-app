@@ -1,6 +1,8 @@
 import React from  'react';
 import { Component } from 'react';
 import './UI.css';
+import AddStocks from '../Components/AddStocks/AddStocks';
+import NewStock from '../Components/NewStock/NewStock';
 class HomePageUI extends Component {
     render() { 
         return (  
@@ -8,58 +10,9 @@ class HomePageUI extends Component {
     <div className="header">
        <h1>Financial Portfolio Tracker App</h1>
      </div>
-        <div className="MyStocks">
-           <h2>My Stocks</h2>
-            <table className="MyStocksTable">
-                <tr id="stockheader">
-                   <th>My Stocks</th> 
-                   <th>Stock Name</th>
-                   <th>No of Share</th>
-                   <th>Buy Price</th>
-                   <th>Current Price</th>
-                   <th>Profit/Loss</th>
-                   <th>--</th>
-                </tr> 
-
-                <tr>
-                <td>AMZN</td>
-                <td>Amazon.com Inc</td>
-                <td>20</td>
-                <td>4654</td>
-                <td>1335346</td>
-                <td>-987</td>
-                <td>
-                    <button id="btnTrack">stop tracking</button>
-                </td>
-                </tr>
-                <tr>
-                <td>AMZN</td>
-                <td>Amazon.com Inc</td>
-                <td>20</td>
-                <td>4654</td>
-                <td>1335346</td>
-                <td>-987</td>
-                <td>
-                    <button id="btnTrack">stop tracking</button>
-                </td>
-                </tr>
-                <tr>
-                <td>AMZN</td>
-                <td>Amazon.com Inc</td>
-                <td>20</td>
-                <td>4654</td>
-                <td>1335346</td>
-                <td>-987</td>
-                <td>
-                    <button id="btnTrack">stop tracking</button>
-                </td>
-                </tr>
-            </table>
-        </div>
-        <div className="AddStocksTitle">
-            <h2>Add  Stock to my stock</h2>
-            <button className="StockButton"> INTC</button> <span>Intel Corporations</span>
-        </div>
+           <AddStocks></AddStocks>
+           <NewStock></NewStock>
+      
       </div>
 
         );

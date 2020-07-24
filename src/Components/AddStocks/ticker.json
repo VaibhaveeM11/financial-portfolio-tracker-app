@@ -1,0 +1,19 @@
+{
+    "tickers":[
+{
+    "symbol": "AMZN" ,"name":"Amazon.com Inc."
+},
+{
+    "symbol": "MSFT" ,"name":"Microsoft Corporation"
+},
+{
+    "symbol": "GS" ,"name":"Goldman Sachs Group Inc."
+},
+{
+    "symbol": "BA" ,"name":"Boeing Company"
+},
+{
+    "symbol": "MSD" ,"name":"McDonald's Corporation"
+}
+]
+}
